@@ -29,6 +29,3 @@ format:
     mainfont: Nanum Myeongjo
 
 editor: visual
-
-execute: 
-  freeze: auto

@@ -14,13 +14,6 @@
     "text": "This site includes an interactive Shiny app that clusters colors in an uploaded image."
   },
   {
-    "objectID": "tabs/sensing.html",
-    "href": "tabs/sensing.html",
-    "title": "sensing",
-    "section": "",
-    "text": "# Load required libraries\nlibrary(magick)\n\nWarning: package 'magick' was built under R version 4.4.1\n\n\nLinking to ImageMagick 6.9.12.93\nEnabled features: cairo, fontconfig, freetype, heic, lcms, pango, raw, rsvg, webp\nDisabled features: fftw, ghostscript, x11\n\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(grid)\nlibrary(ggplot2)\n\nWarning: package 'ggplot2' was built under R version 4.4.1\n\n\n\nimg &lt;- image_read(\"~/Desktop/lakemichigan.png\")\nimg &lt;- image_resize(img, \"100x100\") \n\nimg_raster &lt;- as.raster(img)\ndf &lt;- expand.grid(\n  x = 1:ncol(img_raster),\n  y = 1:nrow(img_raster)\n) |&gt;\n  mutate(color = as.vector(img_raster))\n\ndf_rgb &lt;- df |&gt;\n  mutate(\n    R = col2rgb(color)[1,],\n    G = col2rgb(color)[2,],\n    B = col2rgb(color)[3,]\n  )\n\nset.seed(42)\nk_clusters &lt;- 8\nkmeans_result &lt;- kmeans(df_rgb[, c(\"R\", \"G\", \"B\")], centers = k_clusters)\n\ndf_rgb$cluster &lt;- factor(kmeans_result$cluster)\n\nggplot(df_rgb, aes(x = x, y = -y, fill = cluster)) +\n  geom_tile() +\n  coord_fixed() +\n  theme_void() +\n  scale_fill_brewer(palette = \"Dark2\") +\n  ggtitle(paste(\"Image Regions Clustered into\", k_clusters, \"Color Groups\"))"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ethical Issues in Remote Sensing",
