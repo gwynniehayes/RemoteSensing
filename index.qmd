@@ -1,11 +1,9 @@
 ---
-title: "RemoteSensing.github.io"
+title: "Ethical Issues in Remote Sensing"
 ---
 
-This is a Quarto website.
+## What is remote sensing?
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Remote Sensing is the use of
 
-```{r}
-1 + 1
-```
+## What is artificial intelligence?

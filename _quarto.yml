@@ -3,18 +3,32 @@ project:
   output-dir: docs
 
 website:
-  title: "RemoteSensing.github.io"
+  title: "Ethical Issues in Remote Sensing"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+        
+      - href: about.qmd
+        text: Common Questions
+        
+      - href: tabs/explore.qmd
+        text: Explore
+        
+      - href: tabs/News.qmd
+        text: News
+        
+      - href: tabs/remotesensing.qmd
+        text: Try it for Yourself!
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: styles.scss 
     toc: true
+    page-layout: full
+    mainfont: Nanum Myeongjo
 
 editor: visual
 
+execute: 
+  freeze: auto

@@ -1,0 +1,56 @@
+/* css styles */
+
+/*-- scss:defaults --*/
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+// Rounds Images 
+.rounded-img {
+  border-radius: 15px;
+}
+
+// Centers Images
+img {
+  display: block;
+  margin: 1rem auto;
+}
+
+// centers text
+.center-text {
+  text-align: center;
+}
+
+// Colors
+$orange: #cad2c5;
+$light-pink: #84a98c;
+$magenta: #52796f;
+$green: #354f52;
+$light-blue: #2f3e46;
+$teal: #e8eddf;
+
+// Base document colors
+$navbar-bg: $magenta; // navbar
+$navbar-fg: $orange; // navbar foreground elements
+$navbar-hl: $light-blue; // highlight color when hovering over navbar links
+$body-bg: $teal; // page background 
+$body-color: $green; // page text 
+$footer-bg: $magenta; // footer 
+$link-color: $green; // hyperlinks 
+$figure-caption-color: $green;
+$table-caption-color: $green;
+
+// Inline code
+$code-bg: $magenta; // inline code background color
+$code-color: $light-blue; // inline code text color
+
+table caption {
+  color: $table-caption-color;
+}
+
+figcaption {
+  color: $figure-caption-color;
+}
+
+imagecaption {
+  color: $green ;
+}

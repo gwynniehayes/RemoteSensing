@@ -1,0 +1,47 @@
+---
+title: "sensing"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+# Load required libraries
+library(magick)
+library(dplyr)
+library(grid)
+library(ggplot2)
+```
+
+```{r}
+img <- image_read("~/Desktop/lakemichigan.png")
+img <- image_resize(img, "100x100") 
+
+img_raster <- as.raster(img)
+df <- expand.grid(
+  x = 1:ncol(img_raster),
+  y = 1:nrow(img_raster)
+) |>
+  mutate(color = as.vector(img_raster))
+
+df_rgb <- df |>
+  mutate(
+    R = col2rgb(color)[1,],
+    G = col2rgb(color)[2,],
+    B = col2rgb(color)[3,]
+  )
+
+set.seed(42)
+k_clusters <- 8
+kmeans_result <- kmeans(df_rgb[, c("R", "G", "B")], centers = k_clusters)
+
+df_rgb$cluster <- factor(kmeans_result$cluster)
+
+ggplot(df_rgb, aes(x = x, y = -y, fill = cluster)) +
+  geom_tile() +
+  coord_fixed() +
+  theme_void() +
+  scale_fill_brewer(palette = "Dark2") +
+  ggtitle(paste("Image Regions Clustered into", k_clusters, "Color Groups"))
+
+```

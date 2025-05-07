@@ -1,0 +1,17 @@
+{
+  "hash": "2e866912a19e86c8e72527bd28ac4865",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"sensing\"\nformat: html\neditor_options: \n  chunk_output_type: console\n---\n\n::: {.cell}\n\n```{.r .cell-code}\n# Load required libraries\nlibrary(magick)\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\nWarning: package 'magick' was built under R version 4.4.1\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nLinking to ImageMagick 6.9.12.93\nEnabled features: cairo, fontconfig, freetype, heic, lcms, pango, raw, rsvg, webp\nDisabled features: fftw, ghostscript, x11\n```\n\n\n:::\n\n```{.r .cell-code}\nlibrary(dplyr)\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\n\nAttaching package: 'dplyr'\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n```\n\n\n:::\n\n```{.r .cell-code}\nlibrary(grid)\nlibrary(ggplot2)\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\nWarning: package 'ggplot2' was built under R version 4.4.1\n```\n\n\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nimg <- image_read(\"~/Desktop/lakemichigan.png\")\nimg <- image_resize(img, \"100x100\") \n\nimg_raster <- as.raster(img)\ndf <- expand.grid(\n  x = 1:ncol(img_raster),\n  y = 1:nrow(img_raster)\n) |>\n  mutate(color = as.vector(img_raster))\n\ndf_rgb <- df |>\n  mutate(\n    R = col2rgb(color)[1,],\n    G = col2rgb(color)[2,],\n    B = col2rgb(color)[3,]\n  )\n\nset.seed(42)\nk_clusters <- 8\nkmeans_result <- kmeans(df_rgb[, c(\"R\", \"G\", \"B\")], centers = k_clusters)\n\ndf_rgb$cluster <- factor(kmeans_result$cluster)\n\nggplot(df_rgb, aes(x = x, y = -y, fill = cluster)) +\n  geom_tile() +\n  coord_fixed() +\n  theme_void() +\n  scale_fill_brewer(palette = \"Dark2\") +\n  ggtitle(paste(\"Image Regions Clustered into\", k_clusters, \"Color Groups\"))\n```\n\n::: {.cell-output-display}\n![](sensing_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "sensing_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

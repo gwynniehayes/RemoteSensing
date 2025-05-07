@@ -1,9 +1,7 @@
 ---
-title: "About"
+title: "Common Questions "
 ---
 
-About this site
+# Remote Sensing
 
-```{r}
-1 + 1
-```
+# Artifical Intelligence
