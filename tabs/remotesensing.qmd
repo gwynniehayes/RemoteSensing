@@ -2,13 +2,6 @@
 title: "Remote Sensing"
 format: html
 ---
-
-# Welcome to My Website
-
-This site includes an interactive Shiny app that clusters colors in an uploaded image.
-
-## Embedded Shiny App
-
 <iframe src="https://rconnect.stolaf.edu/content/54f0b20c-8e9c-4ba5-9282-ae24a734ca90" width="100%" height="600" frameborder="0">
 
 </iframe>
