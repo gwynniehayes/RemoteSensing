@@ -2,6 +2,5 @@
 title: "Remote Sensing"
 format: html
 ---
-<iframe src="https://rconnect.stolaf.edu/content/54f0b20c-8e9c-4ba5-9282-ae24a734ca90" width="100%" height="600" frameborder="0">
 
-</iframe>
+<iframe src="https://gwynyn.shinyapps.io/shinywebsite/" width="800" height="600"></iframe>
