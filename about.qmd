@@ -4,4 +4,4 @@ title: "Common Questions "
 
 # Remote Sensing
 
-# Artifical Intelligence
+# Artificial Intelligence
