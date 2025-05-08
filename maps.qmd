@@ -1,0 +1,37 @@
+---
+title: "Maps"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+https://github.com/satellite-image-deep-learning/datasets
+
+https://zenodo.org/records/3765872#.YHs-MBMzbUI
+
+```{r}
+library(osmdata)
+library(sf)
+library(ggplot2)
+library(prettymapr)
+```
+
+```{r}
+great_lakes_bbox <- c(-93.0, 41.0, -74.0, 49.5) 
+
+place <- "Lake Erie, United States"
+
+building_query <- opq(place) |>
+  add_osm_feature(key = "natural")
+
+building_data <- osmdata_sf(building_query)
+```
+
+```{r}
+buildings <- building_data$osm_polygons
+
+ggplot() +
+  ggspatial::annotation_map_tile(type = "cartolight", zoom = 8) +
+  geom_sf(data = buildings, fill = "darkgreen", color = NA)
+
+```
