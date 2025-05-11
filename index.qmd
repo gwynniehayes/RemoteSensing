@@ -5,11 +5,11 @@ toc: FALSE
 
 ## What is remote sensing?
 
-Remote sensing is the use of satellites or low flying aircrafts to scan the earth in order to obtain geographic information about the area. This data is then stored in digital images, which then can be used with image processing techniques to detect and “sense” specific things in the environment of the image.
+Remote sensing is the use of satellites or low flying air crafts to scan the earth in order to obtain geographic information about the area. This data is then stored in digital images, which then can be used with image processing techniques to detect and “sense” specific things in the environment of the image.
 
 This is done by measuring the reflected and emitted radiation from the physical characteristics of the landscape at a distance. Low Earth Orbit (LEO) Satellites are a common system used to do remote sensing, see the [Common Questions](about.qmd) page to learn more about different types of remote sensing systems.
 
-[![](tabs/images/remotesensing.png){.rounded-img}](https://crisp.nus.edu.sg/~research/tutorial/optical.htm)
+[![](tabs/images/remotesensing.jpeg){.rounded-img}](https://crisp.nus.edu.sg/~research/tutorial/optical.htm)
 
 ## What is artificial intelligence?
 
