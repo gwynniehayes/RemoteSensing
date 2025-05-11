@@ -5,22 +5,23 @@ project:
 website:
   title: "Ethical Issues in Remote Sensing"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-        
-      - href: about.qmd
-        text: Common Questions
-        
-      - href: tabs/explore.qmd
-        text: Explore
-
-      - href: tabs/ethics.qmd
-        text: Ethical Considerations
-        
-      - href: tabs/remotesensing.qmd
-        text: Try it for Yourself!
-        
+    right:
+    
+    - href: index.qmd
+      text: Home
+      
+    - href: about.qmd
+      text: Common Questions
+      
+    - href: tabs/ethics.qmd
+      text: Ethical Issues
+      
+    - href: tabs/explore.qmd
+      text: Explore
+    
+    - href: tabs/remotesensing.qmd
+      text: Try it for Yourself!
+      
 format:
   html:
     theme: styles.scss 

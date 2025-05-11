@@ -1,5 +1,4 @@
 ---
 title: "Resources"
-format: html
 toc: FALSE
 ---

@@ -1,6 +1,5 @@
 ---
 title: "Explore"
-format: html
 toc: FALSE
 editor_options: 
   chunk_output_type: console
@@ -41,6 +40,6 @@ leaflet(data = case_studies) |>
 
 ## What does Remote Sensing Actually Look Like?
 
-[![](images/lakeeriesensed.png){.rounded-img}](https://www.researchgate.net/figure/Example-image-of-NOAAs-Lake-Erie-HAB-tracker-a-tool-that-combines-remote-sensing_fig1_299461504)
+[![](images/lakeeriesensed.jpeg){.rounded-img width="5in"}](https://www.researchgate.net/figure/Example-image-of-NOAAs-Lake-Erie-HAB-tracker-a-tool-that-combines-remote-sensing_fig1_299461504)
 
 This is an example of what an image generated from remote sensing algorithms looks like. It is highlighting the areas in which large harmful algal blooms are present in Lake Erie. In this specific example we can see the migration of these algal blooms over time.
