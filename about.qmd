@@ -21,7 +21,7 @@ toc: FALSE
 
     Interferometric Synthetic Aperture Radar, is imaging that maps ground deformations. InSAR uses radar imaging that penetrates cloud and weather coverage to get accurate readings of the Earth's surface.
 
-    [![](tabs/images/InSAR.gif){.rounded-img}](https://www.usgs.gov/programs/VHP/insar-satellite-based-technique-captures-overall-deformation-picture)
+    [![](tabs/images/InSAR.gif){.rounded-img}]
 
 4.  Landsat
 
@@ -75,10 +75,9 @@ From [IBM](https://www.ibm.com/think/topics/feature-extraction#:~:text=First%2C%
 
 From [Windward](https://windward.ai/glossary/what-is-data-fusion/#:~:text=How%20Does%20Data%20Fusion%20Work,efficient%20processing%20in%20downstream%20applications.)
 
-"Here’s how data fusion happens: 
+"Here’s how data fusion happens:
 
-1. Data acquisition and validation: data is continuously collected from various sources and standardized for analysis. Before moving forward, it is validated to remove inaccuracies, and redundant or erroneous information.
-2. Feasibility and assignment: the validated data is evaluated to ensure it reflects realistic behavior patterns, after which it is assigned to the most appropriate entities, using advanced matching techniques.
-3. Conflict resolution and refinement: in cases of conflicting data assignments, a scoring mechanism resolves any ambiguities. The data is then further refined to maintain the accuracy and integrity of entity paths.
-4. Data optimization: the final step involves streamlining the dataset, retaining only the most relevant information to ensure efficient processing in downstream applications."
-
+1.  Data acquisition and validation: data is continuously collected from various sources and standardized for analysis. Before moving forward, it is validated to remove inaccuracies, and redundant or erroneous information.
+2.  Feasibility and assignment: the validated data is evaluated to ensure it reflects realistic behavior patterns, after which it is assigned to the most appropriate entities, using advanced matching techniques.
+3.  Conflict resolution and refinement: in cases of conflicting data assignments, a scoring mechanism resolves any ambiguities. The data is then further refined to maintain the accuracy and integrity of entity paths.
+4.  Data optimization: the final step involves streamlining the dataset, retaining only the most relevant information to ensure efficient processing in downstream applications."
