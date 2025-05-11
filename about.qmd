@@ -2,6 +2,6 @@
 title: "Common Questions "
 ---
 
-## Remote Sensing
+## Types of Remote Sensing
 
-## Artificial Intelligence
+## Uses of Artifical Intelligence in Remote Sensing

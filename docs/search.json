@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "about.html#artificial-intelligence",
-    "href": "about.html#artificial-intelligence",
+    "objectID": "about.html#uses-of-artifical-intelligence-in-remote-sensing",
+    "href": "about.html#uses-of-artifical-intelligence-in-remote-sensing",
     "title": "Common Questions",
-    "section": "Artificial Intelligence",
-    "text": "Artificial Intelligence"
+    "section": "Uses of Artifical Intelligence in Remote Sensing",
+    "text": "Uses of Artifical Intelligence in Remote Sensing"
   },
   {
     "objectID": "tabs/News.html",
     "href": "tabs/News.html",
     "title": "Ethcial Issues",
     "section": "",
-    "text": "There are many ethical issues to consider when talking about remote sensing. These are important to consider because there is very little public conversation about what remote sensing is. It is not an issue that is brushed under the table but it is not something that is widely discussed.\n\nPrivacy and Surveillance:\n\nUnconsented observation: Remote sensing can capture data about individuals, communities, or private properties without their knowledge or consent.\nMass surveillance: Governments or companies might use remote sensing for population monitoring or political control, raising civil liberty concerns.\n\nInformed Consent:\n\nOften, people or communities being observed are unaware that data is being collected about them, which violates the ethical principle of informed consent.\n\nData Misuse:\n\nMilitary or political exploitation: Remote sensing data can be used for targeting in conflicts or for espionage.\nCommercial exploitation: Companies may sell or use satellite imagery to exploit natural resources or real estate without local stakeholder involvement.\n\nBias and Representation:\n\nData interpretation can be biased, especially when used to inform policies affecting vulnerable communities. Remote sensing may overlook cultural or social contexts, leading to technocratic or top-down decisions that ignore local knowledge.\n\nEnvironmental and Social Impact:\n\nDrone usage may disrupt wildlife or intrude on indigenous lands. Decisions based on remote sensing (e.g., for urban planning, disaster relief) may inadvertently marginalize already disadvantaged populations.\n\nData Ownership and Access:\n\nWho owns the data? Satellite imagery is often controlled by governments or private corporations, limiting transparency and equitable access for affected communities."
+    "text": "There are many ethical issues to consider when talking about remote sensing. These are important to consider because there is very little public conversation about what remote sensing is. It is not an issue that is brushed under the table but it is not something that is widely discussed.\n\nPrivacy and Surveillance:\n\nUnconsented observation:\nRemote sensing can capture data about individuals, communities, or private properties without their knowledge or consent.\n\n\nMass surveillance:\nGovernments or companies might use remote sensing for population monitoring or political control, raising civil liberty concerns.\n\n\n\nInformed Consent:\nOften, people or communities being observed are unaware that data is being collected about them, which violates the ethical principle of informed consent.\n\n\nData Misuse:\n\nMilitary or political exploitation:\nRemote sensing data can be used for targeting in conflicts or for espionage.\n\n\nCommercial exploitation:\nCompanies may sell or use satellite imagery to exploit natural resources or real estate without local stakeholder involvement.\n\n\n\nBias and Representation:\nData interpretation can be biased, especially when used to inform policies affecting vulnerable communities. Remote sensing may overlook cultural or social contexts, leading to technocratic or top-down decisions that ignore local knowledge.\n\n\nEnvironmental and Social Impact:\nDrone usage may disrupt wildlife or intrude on indigenous lands. Decisions based on remote sensing (e.g., for urban planning, disaster relief) may inadvertently marginalize already disadvantaged populations.\n\n\nData Ownership and Access:\nWho owns the data? Satellite imagery is often controlled by governments or private corporations, limiting transparency and equitable access for affected communities."
   },
   {
     "objectID": "index.html",
@@ -33,5 +33,12 @@
     "title": "Ethical Issues in Remote Sensing",
     "section": "What is artificial intelligence?",
     "text": "What is artificial intelligence?\nArtificial Intelligence is technology that allows machines and computers to perform tasks such as problem solving, decision making, comprehension and creativity to simulate human learning.\nThere are many different types of artificial intelligence but the one that is most commonly used within remote sensing is machine learning. Machine learning is the ability to use and develop methods to learn and adapt in order to perform tasks without specific instructions."
+  },
+  {
+    "objectID": "index.html#machine-learning-in-remote-sensing",
+    "href": "index.html#machine-learning-in-remote-sensing",
+    "title": "Ethical Issues in Remote Sensing",
+    "section": "Machine Learning in Remote Sensing",
+    "text": "Machine Learning in Remote Sensing\nMachine learning is used in remote sensing to analyze the large amounts of spatial data that is produced. It can be used for:\n\nImage Classification\nObject Detection\nPattern Recognition\nFeature Extraction\nEnvironmental Monitoring\nData Fusion\nPrecision Agriculture\n\nLearn more about these different uses of AI in Remote Sensing on the Common Questions page."
   }
 ]
