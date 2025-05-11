@@ -9,9 +9,8 @@ This first app is a program I made that takes the input of an image that the use
 
 </iframe>
 
+This is package that is accessible in R, called "osmdata" that detects specific things in a map in a specified location. It can detect buildings, roads, water, forests and many other things.
 
-This is package that is accessible in R, called "osmdata" that detects specific things in a map in a specified location. It can detect buildings, roads, water, forests and many other things. I have this set to detect water in an area.
-
-<iframe src = "https://gwynyn.shinyapps.io/OSMApp/" width = "800" height = "600">
+<iframe src="https://gwynyn.shinyapps.io/OSMApp/" width="800" height="600">
 
 </iframe>

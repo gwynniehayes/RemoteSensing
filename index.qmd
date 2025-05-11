@@ -1,6 +1,8 @@
 ---
 title: "Ethical Issues in Remote Sensing"
-toc: FALSE
+format:
+  html:
+    toc: false
 ---
 
 ## What is remote sensing?

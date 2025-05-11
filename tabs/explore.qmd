@@ -1,6 +1,8 @@
 ---
 title: "Explore"
-toc: FALSE
+format:
+  html:
+    toc: false
 editor_options: 
   chunk_output_type: console
 ---

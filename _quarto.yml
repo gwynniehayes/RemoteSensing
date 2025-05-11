@@ -22,6 +22,9 @@ website:
     - href: tabs/remotesensing.qmd
       text: Try it for Yourself!
       
+    - href: tabs/Resources.qmd
+      text: Resources
+      
 format:
   html:
     theme: styles.scss 
