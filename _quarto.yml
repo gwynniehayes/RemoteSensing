@@ -13,7 +13,7 @@ website:
     - href: about.qmd
       text: Common Questions
       
-    - href: tabs/ethics.qmd
+    - href: tabs/EthicalIssues.qmd
       text: Ethical Issues
       
     - href: tabs/explore.qmd

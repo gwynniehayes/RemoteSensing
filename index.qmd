@@ -11,7 +11,7 @@ Remote sensing is the use of satellites or low flying air crafts to scan the ear
 
 This is done by measuring the reflected and emitted radiation from the physical characteristics of the landscape at a distance. Low Earth Orbit (LEO) Satellites are a common system used to do remote sensing, see the [Common Questions](about.qmd) page to learn more about different types of remote sensing systems.
 
-[![](tabs/images/remotesensing.jpeg){width="5in"}](https://crisp.nus.edu.sg/~research/tutorial/optical.htm)
+[![](remotesensing.jpeg){width="5in"}](https://crisp.nus.edu.sg/~research/tutorial/optical.htm)
 
 ## What is artificial intelligence?
 
@@ -27,8 +27,6 @@ Machine learning is used in remote sensing to analyze the large amounts of spati
 2.  Object Detection
 3.  Pattern Recognition
 4.  Feature Extraction
-5.  Environmental Monitoring
-6.  Data Fusion
-7.  Precision Agriculture
+5.  Data Fusion
 
 Learn more about these different uses of AI in Remote Sensing on the [Common Questions](about.qmd) page.
