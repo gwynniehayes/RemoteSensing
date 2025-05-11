@@ -2,6 +2,6 @@
 title: "Common Questions "
 ---
 
-# Remote Sensing
+## Remote Sensing
 
-# Artificial Intelligence
+## Artificial Intelligence

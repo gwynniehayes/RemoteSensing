@@ -16,7 +16,7 @@ website:
         text: Explore
         
       - href: tabs/News.qmd
-        text: News
+        text: Ethics
         
       - href: tabs/remotesensing.qmd
         text: Try it for Yourself!
