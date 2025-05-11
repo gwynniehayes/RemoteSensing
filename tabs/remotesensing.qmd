@@ -6,3 +6,37 @@ format: html
 <iframe src="https://gwynyn.shinyapps.io/shinywebsite/" width="800" height="1000">
 
 </iframe>
+
+```{r}
+#| echo: FALSE
+#| warning: FALSE
+
+library(osmdata)
+library(sf)
+library(ggplot2)
+library(prettymapr)
+library(ggspatial)
+```
+
+```{r}
+#| echo: FALSE
+#| warning: FALSE
+place <- "Lake Erie, United States"
+
+building_query <- opq(place) |>
+  add_osm_feature(key = "natural")
+
+building_data <- osmdata_sf(building_query)
+```
+
+```{r}
+#| echo: FALSE
+#| warning: FALSE
+
+buildings <- building_data$osm_polygons
+
+ggplot() +
+  annotation_map_tile(type = "cartolight", zoom = 8) +
+  geom_sf(data = buildings, fill = "darkgreen", color = NA)
+
+```
