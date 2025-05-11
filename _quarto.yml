@@ -15,7 +15,7 @@ website:
       - href: tabs/explore.qmd
         text: Explore
         
-      - href: tabs/News.qmd
+      - href: tabs/ethics.qmd
         text: Ethics
         
       - href: tabs/remotesensing.qmd

@@ -1,7 +1,34 @@
 ---
 title: "Common Questions "
+toc: FALSE
 ---
 
 ## Types of Remote Sensing
 
-## Uses of Artifical Intelligence in Remote Sensing
+1.  LiDAR
+
+    Light Detection and Ranging, is a method of remote sensing that uses light from pulsed lasers to measure the distances pulsed to get an accurate 3-D readings of the land.
+
+[![](images/lidar.jpg){.rounded-img width="417"}](https://www.yellowscan.com/knowledge/lidar-vs-photogrammetry-key-differences-and-applications/)
+
+2.  MODIS
+
+    Moderate Resolution Imaging Spectroradiometer, is an instrument on the Terra and Aqua Satellites that scan the Earth's surface as the satellites orbit. MODIS views the entire Earth every 1-2 days.
+
+    [![](images/modis.jpg){.rounded-img width="286"}](https://atmosphere-imager.gsfc.nasa.gov/links/modis-platforms)
+
+<!-- -->
+
+3.  InSAR
+
+    Interferometric Synthetic Aperture Radar, is imaging that maps ground deformations. InSAR uses radar imaging that penetrates cloud and weather coverage to get accurate readings of the Earth's surface.
+
+    [![](images/InSAR.gif){.rounded-img width="286"}](https://www.usgs.gov/programs/VHP/insar-satellite-based-technique-captures-overall-deformation-picture)
+
+4.  Landsat
+
+5.  Sentinel-2
+
+6.  Drones
+
+## Uses of Artificial Intelligence in Remote Sensing

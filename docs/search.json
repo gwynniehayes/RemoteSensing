@@ -1,14 +1,35 @@
 [
   {
-    "objectID": "about.html#uses-of-artifical-intelligence-in-remote-sensing",
-    "href": "about.html#uses-of-artifical-intelligence-in-remote-sensing",
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "Common Questions",
-    "section": "Uses of Artifical Intelligence in Remote Sensing",
-    "text": "Uses of Artifical Intelligence in Remote Sensing"
+    "section": "",
+    "text": "LiDAR\nLight Detection and Ranging, is a method of remote sensing that uses light from pulsed lasers to measure the distances pulsed to get an accurate 3-D readings of the land.\n\n\n\nMODIS\nModerate Resolution Imaging Spectroradiometer, is an instrument on the Terra and Aqua Satellites that scan the Earth’s surface as the satellites orbit. MODIS views the entire Earth every 1-2 days.\n\n\n\n\nInSAR\nInterferometric Synthetic Aperture Radar, is imaging that maps ground deformations. InSAR uses radar imaging that penetrates cloud and weather coverage to get accurate readings of the Earth’s surface.\n\nLandsat\nSentinel-2\nDrones"
   },
   {
-    "objectID": "tabs/News.html",
-    "href": "tabs/News.html",
+    "objectID": "about.html#types-of-remote-sensing",
+    "href": "about.html#types-of-remote-sensing",
+    "title": "Common Questions",
+    "section": "",
+    "text": "LiDAR\nLight Detection and Ranging, is a method of remote sensing that uses light from pulsed lasers to measure the distances pulsed to get an accurate 3-D readings of the land.\n\n\n\nMODIS\nModerate Resolution Imaging Spectroradiometer, is an instrument on the Terra and Aqua Satellites that scan the Earth’s surface as the satellites orbit. MODIS views the entire Earth every 1-2 days.\n\n\n\n\nInSAR\nInterferometric Synthetic Aperture Radar, is imaging that maps ground deformations. InSAR uses radar imaging that penetrates cloud and weather coverage to get accurate readings of the Earth’s surface.\n\nLandsat\nSentinel-2\nDrones"
+  },
+  {
+    "objectID": "about.html#uses-of-artificial-intelligence-in-remote-sensing",
+    "href": "about.html#uses-of-artificial-intelligence-in-remote-sensing",
+    "title": "Common Questions",
+    "section": "Uses of Artificial Intelligence in Remote Sensing",
+    "text": "Uses of Artificial Intelligence in Remote Sensing"
+  },
+  {
+    "objectID": "tabs/explore.html#what-does-remote-sensing-actually-look-like",
+    "href": "tabs/explore.html#what-does-remote-sensing-actually-look-like",
+    "title": "Explore",
+    "section": "What does Remote Sensing Actually Look Like?",
+    "text": "What does Remote Sensing Actually Look Like?\n\nThis is an example of what an image generated from remote sensing algorithms looks like. It is highlighting the areas in which large harmful algal blooms are present in Lake Erie. In this specific example we can see the migration of these algal blooms over time."
+  },
+  {
+    "objectID": "tabs/ethics.html",
+    "href": "tabs/ethics.html",
     "title": "Ethcial Issues",
     "section": "",
     "text": "There are many ethical issues to consider when talking about remote sensing. These are important to consider because there is very little public conversation about what remote sensing is. It is not an issue that is brushed under the table but it is not something that is widely discussed.\n\nPrivacy and Surveillance:\n\nUnconsented observation:\nRemote sensing can capture data about individuals, communities, or private properties without their knowledge or consent.\n\n\nMass surveillance:\nGovernments or companies might use remote sensing for population monitoring or political control, raising civil liberty concerns.\n\n\n\nInformed Consent:\nOften, people or communities being observed are unaware that data is being collected about them, which violates the ethical principle of informed consent.\n\n\nData Misuse:\n\nMilitary or political exploitation:\nRemote sensing data can be used for targeting in conflicts or for espionage.\n\n\nCommercial exploitation:\nCompanies may sell or use satellite imagery to exploit natural resources or real estate without local stakeholder involvement.\n\n\n\nBias and Representation:\nData interpretation can be biased, especially when used to inform policies affecting vulnerable communities. Remote sensing may overlook cultural or social contexts, leading to technocratic or top-down decisions that ignore local knowledge.\n\n\nEnvironmental and Social Impact:\nDrone usage may disrupt wildlife or intrude on indigenous lands. Decisions based on remote sensing (e.g., for urban planning, disaster relief) may inadvertently marginalize already disadvantaged populations.\n\n\nData Ownership and Access:\nWho owns the data? Satellite imagery is often controlled by governments or private corporations, limiting transparency and equitable access for affected communities."

@@ -1,6 +1,7 @@
 ---
 title: "Ethcial Issues"
 format: html
+toc: FALSE
 ---
 
 There are many ethical issues to consider when talking about remote sensing. These are important to consider because there is very little public conversation about what remote sensing is. It is not an issue that is brushed under the table but it is not something that is widely discussed.
