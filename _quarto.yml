@@ -14,13 +14,13 @@ website:
         
       - href: tabs/explore.qmd
         text: Explore
-        
+
       - href: tabs/ethics.qmd
-        text: Ethics
+        text: Ethical Considerations
         
       - href: tabs/remotesensing.qmd
         text: Try it for Yourself!
-
+        
 format:
   html:
     theme: styles.scss 
