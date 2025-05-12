@@ -9,7 +9,7 @@ format:
 
 1.  **LiDAR:** Light Detection and Ranging, is a method of remote sensing that uses light from pulsed lasers to measure the distances pulsed to get an accurate 3-D readings of the land.
 
-[![](lidar.jpg){.rounded-img width="5in"}](https://www.yellowscan.com/knowledge/lidar-vs-photogrammetry-key-differences-and-applications/)
+![](lidar.jpg){.rounded-img width="5in"}
 
 2.  **MODIS:** Moderate Resolution Imaging Spectroradiometer, is an instrument on the Terra and Aqua Satellites that scan the Earth's surface as the satellites orbit. MODIS views the entire Earth every 1-2 days.
 
@@ -17,7 +17,7 @@ format:
 
 3.  **InSAR:** Interferometric Synthetic Aperture Radar, is imaging that maps ground deformations. InSAR uses radar imaging that penetrates cloud and weather coverage to get accurate readings of the Earth's surface.
 
-[![](InSAR.jpeg){.rounded-img}](https://www.usgs.gov/programs/VHP/insar-satellite-based-technique-captures-overall-deformation-picture)
+![](InSAR.jpeg){.rounded-img}
 
 4.  **Landsat:** The Landsat Satellite Program is a satellite that is constantly acquiring data, from space based imaging of moderate land monitoring. It captures multi-spectral images of the land surface.
 
@@ -25,11 +25,11 @@ format:
 
 5.  **Sentinel-2:** is a Europe based satellite imagery program that uses 2 satellites in orbit for multi-spectral imaging of the land and vegetation.
 
-[![](Sentinel2.jpg){.rounded-img width="5in"}](https://earth.esa.int/eogateway/missions/landsat)
+![](Sentinel2.jpg){.rounded-img width="5in"}
 
 6.  **Drones:** UAV Remote Sensing is the use of unmanned aerial vehicles equipped with sensors that are constantly scanning a specific area of the Earth's surface when they are in the air. These UAV's can be equipped with LiDAR sensors, MODIS sensors, InSAR sensors and many others. They are alternative to satellite imaging.
 
-[![](drones.jpeg){.rounded-img width="5in"}](https://www.linkedin.com/pulse/what-different-types-sensors-used-uav-remote-sensing-ecko360-shvsc)
+![](drones.jpeg){.rounded-img width="5in"}
 
 ## Uses of Artificial Intelligence in Remote Sensing
 
