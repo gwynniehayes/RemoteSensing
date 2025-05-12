@@ -11,7 +11,7 @@ Remote sensing is the use of satellites or low flying air crafts to scan the ear
 
 This is done by measuring the reflected and emitted radiation from the physical characteristics of the landscape at a distance. Low Earth Orbit (LEO) Satellites are a common system used to do remote sensing, see the [Common Questions](about.qmd) page to learn more about different types of remote sensing systems.
 
-![](remotesensing.png){width="5in"}
+![](tabs/media/remotesensing.png)
 
 ## What is artificial intelligence?
 
